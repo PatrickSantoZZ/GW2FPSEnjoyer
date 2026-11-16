@@ -262,6 +262,7 @@ __pycache__/
 dump_bytes.py
 find_fps_cap.py
 find_runtime_value.py
+verify_setter.py
 
 # build folder
 .vs

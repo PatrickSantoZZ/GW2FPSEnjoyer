@@ -77,7 +77,10 @@ void DrawUnlockerControls()
 		{
 			FpsPatch::Apply(g_TargetFPS, LogPatch);
 		}
-
+		if (ImGui::Button("60 FPS")) { g_TargetFPS = 60;  FpsPatch::Apply(g_TargetFPS, LogPatch); }
+		ImGui::SameLine();
+		if (ImGui::Button("144 FPS")) { g_TargetFPS = 144;  FpsPatch::Apply(g_TargetFPS, LogPatch); }
+		ImGui::SameLine();
 		if (ImGui::Button("240 FPS")) { g_TargetFPS = 240;  FpsPatch::Apply(g_TargetFPS, LogPatch); }
 		ImGui::SameLine();
 		if (ImGui::Button("360 FPS")) { g_TargetFPS = 360;  FpsPatch::Apply(g_TargetFPS, LogPatch); }

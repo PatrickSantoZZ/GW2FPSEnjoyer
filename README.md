@@ -16,7 +16,7 @@ A lightweight open-source addon for **Guild Wars 2 (64-bit)** that bypasses the 
 
 * **Bypasses the 240 FPS Cap:** Unlocks high refresh rate monitors (300Hz, 360Hz+) by letting the game compute custom target frametimes natively.
 * **In-Game ImGui Control Panel:** Seamlessly integrated into the Nexus Options tab with an optional standalone floating window.
-* **Live Runtime Adjustment:** Change your target FPS dynamically on the fly (from 60 up to 3000 FPS) without restarting the game.
+* **Live Runtime Adjustment:** Change your target FPS dynamically on the fly (from 30 up to 10000 FPS) without restarting the game.
 * **Zero Performance Overhead:** Uses a clean, single-point engine instruction patch instead of heavy polling loops.
 
 
@@ -24,7 +24,7 @@ A lightweight open-source addon for **Guild Wars 2 (64-bit)** that bypasses the 
 
 1. Open the Nexus panel in-game.
 2. Go to **Addons** ➔ **FPS Unlocker**.
-3. Toggle the unlocker on and use the slider or preset buttons (**240 FPS**, **360 FPS**, **500 FPS**, **1000 FPS**) to adjust your limit.
+3. Toggle the unlocker on and use the slider or preset buttons (**60 FPS**, **144 FPS**, **240 FPS**, **360 FPS**, **500 FPS**, **1000 FPS**) to adjust your limit.
 4. *Tip:* For best results, ensure **V-Sync** is disabled in your in-game graphics settings. If you play in *Windowed Fullscreen*, Windows DWM might cap your frame rate to your desktop monitor's refresh rate—switch to true *Fullscreen* if you want unlimited uncapped frames.
 
 ## Credits

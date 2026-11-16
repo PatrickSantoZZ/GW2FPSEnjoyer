@@ -1,5 +1,7 @@
 # GW2 FPS Unlocker (Nexus Addon)
 
+**AI Disclaimer**: AI was used to check the addon against older versions of the game to make sure it doesnt break each update AND for creating a better pattern to always find the correct setter even after game patches/hotfixes (Opus 5.5 high)
+
 A lightweight open-source addon for **Guild Wars 2 (64-bit)** that bypasses the hard 240 FPS engine cap by patching the game's native frametime calculation. It features a fully integrated **ImGui configuration menu** right inside Nexus.
 
 ![Nexus Menu](https://img.shields.io/badge/Nexus-API%20v6-blue) ![C++](https://img.shields.io/badge/C%2B%2B-20-orange) ![License](https://img.shields.io/badge/License-MIT-green)
@@ -29,3 +31,4 @@ A lightweight open-source addon for **Guild Wars 2 (64-bit)** that bypasses the 
 
 ## Credits
 * Special thanks to Delta for creating Nexus and for the invaluable guidance during development. 
+* theraytheone for testing a early version of this addon to check if the fps beyond 500 fps works without issues

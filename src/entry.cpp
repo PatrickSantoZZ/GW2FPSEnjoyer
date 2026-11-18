@@ -44,15 +44,15 @@ extern "C" __declspec(dllexport) AddonDefinition_t* GetAddonDef()
 	AddonDef.Name = "FPS Unlocker";
 	AddonDef.Version.Major = 2026;
 	AddonDef.Version.Minor = 11;
-	AddonDef.Version.Build = 16;
+	AddonDef.Version.Build = 18;
 	AddonDef.Version.Revision = 0;
 	AddonDef.Author = "Nekonekoo";
 	AddonDef.Description = "Unlocks the 240 FPS cap by patching the game's frametime setter, with an ImGui UI.";
 	AddonDef.Load = AddonLoad;
 	AddonDef.Unload = AddonUnload;
 	AddonDef.Flags = AF_None;
-	AddonDef.Provider = UP_Raidcore;
-	AddonDef.UpdateLink = nullptr;
+	AddonDef.Provider = UP_GitHub;
+	AddonDef.UpdateLink = "https://github.com/PatrickSantoZZ/GW2FPSEnjoyer";
 
 	return &AddonDef;
 }
